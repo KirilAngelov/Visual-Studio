@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Square", "ConsoleApp1\Square.csproj", "{F34BF7FB-7C50-478B-8595-BC2E8C92D3E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inches-to-Centimeters", "Inches-to-Centimeters\Inches-to-Centimeters.csproj", "{86EA68D2-D7DC-4756-9DF7-E8BC19B37CF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concatenate- Data", "Greeting\Concatenate- Data.csproj", "{FC692716-1A7D-4372-8122-E263719F6D4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trapezoid-Area", "Trapezoid-Area\Trapezoid-Area.csproj", "{D93CB143-5CA8-4816-99A8-C643ED2051BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Circle-Surface", "Circle-Surface\Circle-Surface.csproj", "{A6259AE0-95C9-47AA-90B6-D18CFB19453F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coordinate System Rectangle Area", "Coordinate System Rectangle Area\Coordinate System Rectangle Area.csproj", "{A9718D69-B0B3-4989-B8E4-7A0D6A22489D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriangleArea", "TriangleArea\TriangleArea.csproj", "{EB1F749F-E84B-46DF-A20E-B86AE3A5CEED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F34BF7FB-7C50-478B-8595-BC2E8C92D3E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F34BF7FB-7C50-478B-8595-BC2E8C92D3E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F34BF7FB-7C50-478B-8595-BC2E8C92D3E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F34BF7FB-7C50-478B-8595-BC2E8C92D3E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86EA68D2-D7DC-4756-9DF7-E8BC19B37CF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86EA68D2-D7DC-4756-9DF7-E8BC19B37CF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86EA68D2-D7DC-4756-9DF7-E8BC19B37CF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86EA68D2-D7DC-4756-9DF7-E8BC19B37CF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC692716-1A7D-4372-8122-E263719F6D4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC692716-1A7D-4372-8122-E263719F6D4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC692716-1A7D-4372-8122-E263719F6D4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC692716-1A7D-4372-8122-E263719F6D4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D93CB143-5CA8-4816-99A8-C643ED2051BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D93CB143-5CA8-4816-99A8-C643ED2051BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D93CB143-5CA8-4816-99A8-C643ED2051BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D93CB143-5CA8-4816-99A8-C643ED2051BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6259AE0-95C9-47AA-90B6-D18CFB19453F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6259AE0-95C9-47AA-90B6-D18CFB19453F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6259AE0-95C9-47AA-90B6-D18CFB19453F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6259AE0-95C9-47AA-90B6-D18CFB19453F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9718D69-B0B3-4989-B8E4-7A0D6A22489D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9718D69-B0B3-4989-B8E4-7A0D6A22489D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9718D69-B0B3-4989-B8E4-7A0D6A22489D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9718D69-B0B3-4989-B8E4-7A0D6A22489D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB1F749F-E84B-46DF-A20E-B86AE3A5CEED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB1F749F-E84B-46DF-A20E-B86AE3A5CEED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB1F749F-E84B-46DF-A20E-B86AE3A5CEED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB1F749F-E84B-46DF-A20E-B86AE3A5CEED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC55C364-A51C-46E0-8373-C60A45FB6C07}
+	EndGlobalSection
+EndGlobal
