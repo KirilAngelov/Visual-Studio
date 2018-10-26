@@ -11,6 +11,7 @@ namespace Shapes
             {
                 double side = double.Parse(Console.ReadLine());
                 Console.WriteLine(side*side);
+               
             }
             if (type == "rectangle")
             {
