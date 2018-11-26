@@ -6,23 +6,26 @@ namespace BubbleSort
     {
         static void Main(string[] args)
         {
-            int[] arr = { 800, 11, 50, 771, 649, 770, 240, 9 };
+            int[] array = { 800, 11, 50, 771, 649, 770, 240, 9 };
+            int length = array.Length;
 
-            int temp = 0;
+            int temp = array[0];
 
-            for (int write = 0; write < arr.Length; write++)
+            for (int i = 0; i < length; i++)
             {
-                for (int sort = 0; sort < arr.Length - 1; sort++)
+                for (int j = i + 1; j < length; j++)
                 {
-                    if (arr[sort] > arr[sort + 1])
+                    if (array[i] > array[j])
                     {
-                        temp = arr[sort + 1];
-                        arr[sort + 1] = arr[sort];
-                        arr[sort] = temp;
+                        temp = array[i];
+
+                        array[i] = array[j];
+
+                        array[j] = temp;
                     }
                 }
-                Console.Write("{0} ", arr[write]);
             }
+
         }
     }
 }
