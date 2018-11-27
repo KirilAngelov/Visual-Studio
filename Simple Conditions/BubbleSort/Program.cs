@@ -24,6 +24,7 @@ namespace BubbleSort
                         array[j] = temp;
                     }
                 }
+               
             }
 
         }
