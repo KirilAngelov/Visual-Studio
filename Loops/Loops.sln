@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenAndOddPosition", "EvenA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfOthers", "SumOfOthers\SumOfOthers.csproj", "{311AF81F-6E89-4B19-912C-CA51A3EF2AED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenAndOddHard", "EvenAndOddHard\EvenAndOddHard.csproj", "{208242D3-E23E-49AB-AEE0-02E9026D7413}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{311AF81F-6E89-4B19-912C-CA51A3EF2AED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{311AF81F-6E89-4B19-912C-CA51A3EF2AED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{311AF81F-6E89-4B19-912C-CA51A3EF2AED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{208242D3-E23E-49AB-AEE0-02E9026D7413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{208242D3-E23E-49AB-AEE0-02E9026D7413}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{208242D3-E23E-49AB-AEE0-02E9026D7413}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{208242D3-E23E-49AB-AEE0-02E9026D7413}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
