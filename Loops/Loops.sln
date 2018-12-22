@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biggest", "Biggest\Biggest.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LefAndRightSum", "LefAndRightSum\LefAndRightSum.csproj", "{E44CAB35-5464-45CA-93ED-15C67A9E8887}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenAndOddPosition", "EvenAndOddPosition\EvenAndOddPosition.csproj", "{C7D2BBDF-8F39-4D88-9636-1E2026016318}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfOthers", "SumOfOthers\SumOfOthers.csproj", "{311AF81F-6E89-4B19-912C-CA51A3EF2AED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{E44CAB35-5464-45CA-93ED-15C67A9E8887}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E44CAB35-5464-45CA-93ED-15C67A9E8887}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E44CAB35-5464-45CA-93ED-15C67A9E8887}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7D2BBDF-8F39-4D88-9636-1E2026016318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7D2BBDF-8F39-4D88-9636-1E2026016318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7D2BBDF-8F39-4D88-9636-1E2026016318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7D2BBDF-8F39-4D88-9636-1E2026016318}.Release|Any CPU.Build.0 = Release|Any CPU
+		{311AF81F-6E89-4B19-912C-CA51A3EF2AED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{311AF81F-6E89-4B19-912C-CA51A3EF2AED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{311AF81F-6E89-4B19-912C-CA51A3EF2AED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{311AF81F-6E89-4B19-912C-CA51A3EF2AED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
