@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{B9D922B6-E452-4566-8AB1-6E65490D9980}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo", "Demo\Demo.csproj", "{B9D922B6-E452-4566-8AB1-6E65490D9980}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biggest", "Biggest\Biggest.csproj", "{2C56A085-A853-4816-8DCA-103CFE42D6E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Biggest", "Biggest\Biggest.csproj", "{2C56A085-A853-4816-8DCA-103CFE42D6E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LefAndRightSum", "LefAndRightSum\LefAndRightSum.csproj", "{E44CAB35-5464-45CA-93ED-15C67A9E8887}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LefAndRightSum", "LefAndRightSum\LefAndRightSum.csproj", "{E44CAB35-5464-45CA-93ED-15C67A9E8887}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenAndOddPosition", "EvenAndOddPosition\EvenAndOddPosition.csproj", "{C7D2BBDF-8F39-4D88-9636-1E2026016318}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvenAndOddPosition", "EvenAndOddPosition\EvenAndOddPosition.csproj", "{C7D2BBDF-8F39-4D88-9636-1E2026016318}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfOthers", "SumOfOthers\SumOfOthers.csproj", "{311AF81F-6E89-4B19-912C-CA51A3EF2AED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumOfOthers", "SumOfOthers\SumOfOthers.csproj", "{311AF81F-6E89-4B19-912C-CA51A3EF2AED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenAndOddHard", "EvenAndOddHard\EvenAndOddHard.csproj", "{208242D3-E23E-49AB-AEE0-02E9026D7413}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvenAndOddHard", "EvenAndOddHard\EvenAndOddHard.csproj", "{208242D3-E23E-49AB-AEE0-02E9026D7413}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diagram", "Diagram\Diagram.csproj", "{DB0AB115-0D13-451A-A641-1D554A48AFB0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{208242D3-E23E-49AB-AEE0-02E9026D7413}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{208242D3-E23E-49AB-AEE0-02E9026D7413}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{208242D3-E23E-49AB-AEE0-02E9026D7413}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB0AB115-0D13-451A-A641-1D554A48AFB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB0AB115-0D13-451A-A641-1D554A48AFB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB0AB115-0D13-451A-A641-1D554A48AFB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB0AB115-0D13-451A-A641-1D554A48AFB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
