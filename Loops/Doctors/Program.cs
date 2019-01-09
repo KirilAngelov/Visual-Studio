@@ -10,13 +10,13 @@ namespace Doctors
             int unthreaded = 0;
             int threaded = 0;
             int doctors = 7;
-            int nepreglefani = 0;
+            int nepregledani = 0;
             for (int i = 1; i <= period; i++)
             {
                 int patientsForADay = int.Parse(Console.ReadLine());
                 if (i > 1 && i % 3 == 0)
                 {
-                    if (nepreglefani > threaded)
+                    if (nepregledani > threaded)
                     {
                         doctors++;
                     }
@@ -30,12 +30,13 @@ namespace Doctors
                     unthreaded = (patientsForADay - doctors);
                     int patient = patientsForADay - unthreaded;
                     threaded += patient;
-                    nepreglefani += unthreaded;
+                    nepregledani += unthreaded;
                 }
 
             }
             Console.WriteLine($"Threaded patients: {threaded}");
-            Console.WriteLine($"Unthreaded patients: {nepreglefani}");
+            Console.WriteLine($"Unthreaded patients: {nepregledani}");
+           
         }
     }
 }
