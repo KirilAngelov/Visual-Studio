@@ -10,9 +10,10 @@ namespace TriangleFromDollars
             for (int i = 1; i <= n; i++)
             {
                 Console.Write("$");
-                for (int j = 0; j < i-1; j++)
+                for (int j = 0; j < i - 1; j++)
                 {
                     Console.Write(" $");
+
                 }
                 Console.WriteLine();
             }
