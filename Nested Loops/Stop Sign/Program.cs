@@ -11,6 +11,7 @@ namespace Stop_Sign
             //1-5=2*n-1 n=3      1-11=2*n-1 n=6    
             //2-7=2*n+1 n=3      2-13=2*n+1 n=6     
             //3-9=2*n+3 n=3      3-15=2*n+3 n=6
+
             int[] arr = new int[n+2];
             int[] arr2 = new int[100];
             arr2[0] = 0;
