@@ -7,13 +7,26 @@ namespace Demo
         static void Main(string[] args)
         {
             int n = int.Parse(Console.ReadLine());
-            int sum = 0;
-            for (int i = 0; i < n; i++)
+            while (true)
             {
-                int num = int.Parse(Console.ReadLine());
-                sum = sum + num;
+                if (n % 2 == 0)
+                {
+                    Console.WriteLine("Even");
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Enter again");
+                    n = int.Parse(Console.ReadLine());
+
+
+                }
+
             }
-            Console.WriteLine(sum);
+       
+          
+          
+          
         }
     }
 }

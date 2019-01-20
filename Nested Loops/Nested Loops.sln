@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Butterfly", "Butterfly\Butt
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stop Sign", "Stop Sign\Stop Sign.csproj", "{3456711A-F7BF-4763-AB00-A26214C05376}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "This Way Sign", "This Way Sign\This Way Sign.csproj", "{AA8772D9-E5E8-4DD4-B6AC-7D3289B2FF76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "This Way Sign", "This Way Sign\This Way Sign.csproj", "{AA8772D9-E5E8-4DD4-B6AC-7D3289B2FF76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Axe", "Axe\Axe.csproj", "{ED3FE3AE-1946-4EBD-BD11-1CB7F85409ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{AA8772D9-E5E8-4DD4-B6AC-7D3289B2FF76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA8772D9-E5E8-4DD4-B6AC-7D3289B2FF76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA8772D9-E5E8-4DD4-B6AC-7D3289B2FF76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED3FE3AE-1946-4EBD-BD11-1CB7F85409ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED3FE3AE-1946-4EBD-BD11-1CB7F85409ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED3FE3AE-1946-4EBD-BD11-1CB7F85409ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED3FE3AE-1946-4EBD-BD11-1CB7F85409ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
