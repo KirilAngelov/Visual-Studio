@@ -18,31 +18,36 @@ namespace ASCII_Art
             int width = image.Width;
             Console.WriteLine(height);
             Console.WriteLine(width);
+           char[] characters = "`^\",:;Il!i~+_-?][}{1)(|\\/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$".ToArray();
             int[,] pixelMatrix = new int [width+1,height+1];
+            int[,] brightnessMatrix = new int[width + 1, height + 1];
             for (int i = 0; i < width; i++)
             {
                 for (int k = 0; k < height; k++)
                 {
                     Color pixel = image.GetPixel(i,k);
+                  
                     int redNumber = pixel.R;
                     int GreenNumber = pixel.G;
                     int BlueNumber = pixel.B;
                     int sum = redNumber + BlueNumber + GreenNumber;
                     pixelMatrix[i, k] = sum;
+                    brightnessMatrix[i, k] = sum / 3;
                     
                 }
             }
-            //Test if everything is working and then continue with brightness matrix
+            Console.WriteLine();
+            //For characters maping maybe try to devide brightnessMatrix index by 4
             for (int i = 0; i < width; i++)
-            {
-                for (int k = 0; k < height; k++)
-                {
-                    Console.WriteLine(pixelMatrix[i,k]);
-                }
-            }
-            /*int offset = y * image.Width * 3 + x * 3; rgbBytes[offset + 0] = pixel.R;
-            rgbBytes[offset + 1] = pixel.G; rgbBytes[offset + 2] = pixel.B;
-            */
+             {
+                 for (int k = 0; k < height; k++)
+                 {
+                     //Console.WriteLine(pixelMatrix[i,k]);
+                     Console.WriteLine(brightnessMatrix[i,k]);
+                 }
+             }
+            
+           
         }
     }
 }
