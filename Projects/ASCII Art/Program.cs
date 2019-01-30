@@ -14,8 +14,10 @@ namespace ASCII_Art
         static void Main(string[] args)
 
         {
-            //Done! Will try to clean up code and document everything.
-            Bitmap image = new Bitmap("C:\\Users\\spard\\Desktop\\Apple.jpg");
+          
+
+        //Done! Will try to clean up code and document everything.
+        Bitmap image = new Bitmap("C:\\Users\\spard\\Desktop\\Apple.jpg");
             Image image1 = new Bitmap("C:\\Users\\spard\\Desktop\\Apple.jpg");
             Bitmap imageResized=ResizeImage(image1,80,80);
             imageResized.RotateFlip(RotateFlipType.Rotate90FlipX);
