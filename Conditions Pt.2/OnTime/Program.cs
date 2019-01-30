@@ -6,85 +6,86 @@ namespace OnTime
     {
         static void Main(string[] args)
         {
-            int startHour=int.Parse(Console.ReadLine());
-            int startMinutes = int.Parse(Console.ReadLine());
-            int arrivalHour = int.Parse(Console.ReadLine());
-            int arrivalMinute = int.Parse(Console.ReadLine());
-            if (startHour==arrivalHour)
+            int StartHour = int.Parse(Console.ReadLine());
+            int StartMinutes = int.Parse(Console.ReadLine());
+            int ArrivalHour = int.Parse(Console.ReadLine());
+            int ArrivalMinutes = int.Parse(Console.ReadLine());
+            if (StartHour == ArrivalHour)
             {
-                if (startMinutes<arrivalMinute)
+                if (StartMinutes < ArrivalMinutes)
                 {
-                    if (arrivalMinute - startMinutes < 10)
+                    if (ArrivalMinutes - StartMinutes < 10)
                     {
-                        Console.WriteLine($"Early with {arrivalMinute - startMinutes}");
+                        Console.WriteLine($"Late with {ArrivalMinutes - StartMinutes}");
                     }
-                    else { Console.WriteLine($"Early with {arrivalMinute - startMinutes}"); }
-                   
+                    else { Console.WriteLine($"Late with {ArrivalMinutes - StartMinutes}"); }
+
                 }
-                if (startMinutes>arrivalMinute)
+                if (StartMinutes > ArrivalMinutes)
                 {
-                    if (startMinutes-arrivalMinute < 10)
+                    if (StartMinutes - ArrivalMinutes < 10)
                     {
-                        Console.WriteLine($"Late with {startMinutes-arrivalMinute}");
+                        Console.WriteLine($"Early with {StartMinutes - ArrivalMinutes}");
                     }
                     else
                     {
-                        Console.WriteLine($"Late with {startMinutes - arrivalMinute}");
+                        Console.WriteLine($"Early with {StartMinutes - ArrivalMinutes}");
                     }
                 }
-                if (startMinutes==arrivalMinute)
+                if (StartMinutes == ArrivalMinutes)
                 {
                     Console.WriteLine("On time");
                 }
             }
             //14:50
             //13:20
-            if (startHour>arrivalHour)
+            if (StartHour > ArrivalHour)
             {
-                if (startMinutes<arrivalMinute)
+                if (StartMinutes < ArrivalMinutes)
                 {
-                     Console.WriteLine($"On time {60 + startMinutes - arrivalMinute}");
-                   
+                    Console.WriteLine($"Early with {60 + StartMinutes - ArrivalMinutes}");
+
                 }
-                if (startMinutes>arrivalMinute)
+                if (StartMinutes > ArrivalMinutes)
                 {
-                    if (arrivalMinute - startMinutes < 10)
+                    if (ArrivalMinutes - StartMinutes < 10)
                     {
-                        Console.WriteLine($"On time {startHour - arrivalHour}:0{startMinutes - arrivalMinute}");
+                        Console.WriteLine($"Early with {StartHour - ArrivalHour}:{StartMinutes - ArrivalMinutes}");
                     }
                     else
                     {
-                        Console.WriteLine($"On time {startHour - arrivalHour}:{startMinutes - arrivalMinute}");
+                        Console.WriteLine($"On time {StartHour - ArrivalHour}:{StartMinutes - ArrivalMinutes}");
                     }
                 }
-                if (startMinutes==arrivalMinute)
+                if (StartMinutes == ArrivalMinutes)
                 {
-                    Console.WriteLine($"On time {startHour-arrivalHour}");
+                    Console.WriteLine($"Early with {StartHour - ArrivalHour}");
                 }
             }
-            if (startHour<arrivalHour)
+            if (StartHour < ArrivalHour)
             {
-                if (startMinutes<arrivalMinute)
+                if (StartMinutes < ArrivalMinutes)
                 {
-                    if (arrivalMinute - startMinutes<10)
+                    if (ArrivalMinutes - StartMinutes < 10)
                     {
-                        Console.WriteLine($"Late with {arrivalHour - startHour}:0{arrivalMinute - startMinutes}");
+                        Console.WriteLine($"Late with {ArrivalHour - StartHour}:0{ArrivalMinutes - StartMinutes}");
                     }
                     else
                     {
-                        Console.WriteLine($"Late with {arrivalHour - startHour}:{arrivalMinute - startMinutes}");
+                        Console.WriteLine($"Late with {ArrivalHour - StartHour}:{ArrivalMinutes - StartMinutes}");
                     }
-                   
+
                 }
-                if (startMinutes>arrivalMinute)
+                if (StartMinutes > ArrivalMinutes)
                 {
-                    Console.WriteLine($"Late with {60+arrivalMinute-startMinutes} minutes");
+                    Console.WriteLine($"Late with {60 + ArrivalMinutes - StartMinutes} minutes");
                 }
-                if (startMinutes==arrivalMinute)
+                if (StartMinutes == ArrivalMinutes)
                 {
-                    Console.WriteLine($"Late with {arrivalHour-startHour} hours");
+                    Console.WriteLine($"Late with {ArrivalHour - StartHour} hours");
                 }
             }
+            
         }
     }
 }
